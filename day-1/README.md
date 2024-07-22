@@ -51,3 +51,12 @@ Tails OS
 
 **Homework**
 Install Tails OS on USB
+
+
+Tor
+- Browser
+- Bridge
+
+
+// Snowflake bridge
+https://snowflake.torproject.org/
