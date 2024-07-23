@@ -61,6 +61,40 @@ Tor
 // Snowflake bridge
 https://snowflake.torproject.org/
 
+## Asymmetric Encryption via OpenSSL
+
+Create private key
+
+```console
+openssl genrsa -out keyfile.key 4096
+```
+
+Create public key with public
+
+```console
+openssl rsa -in keyfile.key -pubout -out keyfile.pub
+```
+
+## Asymmetric Encryption via GPG
+
+Generate full key
+
+```console
+gpg --full-generate-key
+```
+
+Create public key
+
+```console
+gpg --armor --export user-id > pubkey.asc
+```
+
+Create private key
+
+```console
+--export-secret-keys --armor user-id > privkey.asc
+```
+
 
 ## Homework: Create partitions on USB stick
 
