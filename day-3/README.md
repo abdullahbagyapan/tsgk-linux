@@ -1,14 +1,8 @@
 # Linux Kernel Security - 0x03
 
-## Memory:
+InmoDB(in memory db)
 
-1. InmoDB(in memory db)
-2. Temporal
-
-## Permanent Storage:
-
-
-## Memory Mapping
+Temporal Memory
 
 Physical Memory Address
 Digital Memory Address (Virtual)
@@ -20,8 +14,6 @@ Pagination - block size/data chunck size
 ECC (Error Code Correction)
 
 compartmantation(Comparison) - Authorization - Orchestration
-
-
 
 ## Cryptography 101
 
@@ -92,8 +84,6 @@ Hot Pixels: Frequency, Power, and Temperature Attacks on GPUs and Arm SoCs
 
 what happens if you power on pc ?
 
-
-
 North bridge (memory controller hub)
 
 South bridge (I/O controller hub)
@@ -114,17 +104,6 @@ BSOD (blue screen of death)
 
 EDR & XDR endpoint
 
-
-
-## Homework
-
-kernel modulleri araştır
-https://github.com/torvalds/linux/tree/master/Documentation
-https://github.com/torvalds/linux/tree/master/kernel
-
-
-
-
 shutdown vs halt
 
 elf & dll file
@@ -141,3 +120,13 @@ ptrace
 etc -> editable text configuration
 
 usr -> unix system resources
+
+
+## Homework
+
+Linux reposunun altında kernel klasöründeki kaynak kodları inceleyin.
+https://github.com/torvalds/linux/tree/master/kernel
+
+
+// Ek olarak linux'un önceki versiyonlarını ve aralarındaki karşılaştırmaları yapın.
+https://mirrors.edge.kernel.org/pub/linux/kernel/
